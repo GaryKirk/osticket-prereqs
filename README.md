@@ -33,7 +33,6 @@ In order to improve my technical skills, I wanted to gain some experience using 
 In Microsoft Azure, create a new Resource group. After this, in the new resource group, create a new virtual machine (VM) with 2-4 virtual CPUs. Make sure to also create a new virtual network.
 </p>
 <p>
-<img src="![image](https://github.com/GaryKirk/osticket-prereqs/assets/137613637/da2261ae-4100-4551-a3a8-c50fcd689f88)
-" height="80%" width="80%"/>
+<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 <br />
