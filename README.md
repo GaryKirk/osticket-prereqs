@@ -33,3 +33,6 @@ In order to improve my technical skills, I wanted to gain some experience using 
 
 <p>2. Once connected to the the VM, find Control Panel --> Programs --> Turn Windows Features On or Off --> Internet Information Services --> World Wide Web Services --> Application Development Features --> Turn CGI on </p>
 <img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/da49890d-955c-4994-98e9-847d1ac1ff82" alt="Enable IIS with CGI"/ width="300" length="300"><br /><br />
+
+<p>3. Go back to World Wide Web Services. Click Common HTTP Features and make sure that all features are turned on. </p>
+<img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/abe28239-6d1f-4e9c-a0be-20a52fbaf55f" alt="Turn on HTTP Features"/ width="300" length="300"><br /><br />
