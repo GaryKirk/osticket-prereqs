@@ -62,4 +62,16 @@ In order to improve my technical skills, I wanted to gain some experience using 
 <img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/870fc7e1-a98a-4398-af22-c193880d99c3" alt="Register PHP" width="500" length="500"/><br /><br />
 
 <p>12. Download <a href="https://osticketawesome.com/download/10398/?tmstv=1693419592">osTicket (Version 1.15.8)</a>. Once downloaded, navigate to the folder on your system. Click to open it and leave a window open with the 'upload' folder showing. In a seperate window, go to your C: Drive, open the 'inetpub' folder, and click to open 'wwwroot'. Drag the 'upload' folder from the osTicket download window to the 'wwwroot' folder. Rename this folder to "osTicket"</p>
-<img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/dda5eecb-10e8-48be-90c5-1ff96d7721d3" alt="Rename folder to osTicket"/><br /><br />
+<img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/dda5eecb-10e8-48be-90c5-1ff96d7721d3" alt="Rename folder to osTicket" width="500" length="500"/><br /><br />
+
+<p>13. In IIS Manager, on the left sidebar, click Sites --> Default --> osTicket. After this, on the right sidebar, click 'Browse *:80'.This will load a screen that shows you have installed osTicket correctly. If the screen doesn't load, first troubleshoot by restarting the server and then by repeating the previous steps in the tutorial. If the screen opens correctly, leave the browser window open.</p>
+<img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/5dde1c27-3d08-45cb-82c3-9f2baa924f12" alt="osTicket Installed Correctly" width="500" length="500"/><br /><br />
+
+<p>14. Notice in the previous osTicket screenshot that there are some extensions with red crosses. These are currently not enabled. To enable them, go to IIS Manager, on the left sidebar, click Sites --> Default --> osTicket. After this, select PHP Manager and click 'Enable or diasble an extension. On the following screen, click to enable the following extensions:</p>
+<ul>- Enable: php_imap.dll</ul>
+<ul>- Enable: php_intl.dll</ul>
+<ul>- Enable: php_opcache.dll</ul>
+<p>Once this is complete, refresh the browser window that has the osTicket installation confirmation message and you should see that some other extensions are now available.</p>
+<img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/0225e2c3-1fa7-4a3c-baf1-c229d5ed85ce" alt="osTicket Extensions Enabled" width="500" length="500"/><br /><br />
+
+
