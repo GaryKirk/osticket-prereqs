@@ -74,4 +74,6 @@ In order to improve my technical skills, I wanted to gain some experience using 
 <p>Once this is complete, refresh the browser window that has the osTicket installation confirmation message and you should see that some other extensions are now available.</p>
 <img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/0225e2c3-1fa7-4a3c-baf1-c229d5ed85ce" alt="osTicket Extensions Enabled" width="500" length="500"/><br /><br />
 
+<p>15. Next, in your C: Drive, navigate to inetpub --> wwwroot --> osTicket --> include --> ost-sampleconfig.php. Right-click on this file and rename the file to "ost-config.php"</p>
+<img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/cfc7562e-fa23-42e0-a5a1-764d3132f9b9" alt="Rename ost-sampleconfig.php" width="400" length="400"/><br /><br />
 
