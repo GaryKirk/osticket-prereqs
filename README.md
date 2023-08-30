@@ -49,8 +49,12 @@ In order to improve my technical skills, I wanted to gain some experience using 
 <p>7. Navigate to the C: Drive. Right-click --> New --> Folder --> Name the folder "PHP" </p>
 <img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/e7e94008-6ea4-47ef-96e6-d246258f2854" alt="Add PHP folder to C: Drive" width="400" length="400"/><br /><br />
 
-<p>8. Download <a href="https://www.linuxfromscratch.org/blfs/view/9.0/general/php.html">PHP for Windows (Version 7.3.8)</a>. Unzip the contents to the new PHP file on the C: Drive.</p>
+<p>8. Download <a href="https://www.linuxfromscratch.org/blfs/view/9.0/general/php.html">PHP for Windows (Version 7.3.8)</a>. Extract the contents to the PHP file on the C: Drive.</p>
 <img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/f2f7abd1-6d2c-49c7-88e0-d19c07d92ba0" alt="PHP for Windows" width="400" length="400"/><br /><br />
 
 <p>9. Download and install <a href="https://www.microsoft.com/en-US/download/details.aspx?id=48145">Visual C++ Redistributable for Visual Studio 2015</a></p>
 <img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/5a8cb255-e782-4947-90a9-c75ecfeeedb5" alt="C++ Redistributable" width="400" length="400"/><br /><br />
+
+<p>9. Download <a href="https://downloads.mysql.com/archives/get/p/23/file/mysql-5.5.62-win32.msi">MySQL Server (Version 5.5.62)</a>. Once downloaded, choose to complete a 'Typical' installation. When this is complete, launch the configuration wizard. Choose a 'Standard Configuration' and write a root password. Click 'Execute' to finish the setup. </p>
+<img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/84ae9c13-6027-4959-9ef3-50bfa7bfc139)" alt="MySQL Server" width="400" length="400"/><br /><br />
+
