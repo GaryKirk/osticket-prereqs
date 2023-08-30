@@ -95,6 +95,6 @@ In order to improve my technical skills, I wanted to gain some experience using 
 <p>21. Once the installation is complete, navigate to C: drive --> inetpub --> wwwroot --> osTicket. In this folder, delete the 'setup' folder. In addtion to this, use the instructions in step 16 to navigate to the permissions settings of ost-config.php. Reset the permissions so that they show 'Read' and 'Read & Execute' only. </p>
 <img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/756599c3-cee0-42d9-9e49-35a296f7576a" alt="ost-config Permissions Change" width="400" length="400"/><br /><br />
 
-<p>22. Finally, click <a href="http://localhost/osTicket/scp/login.php">here</a> to go to the local admin login page for osTicket. Use your admin login details to sign-in.</p>
+<p>22. Finally, click <a href="http://localhost/osTicket/scp/login.php">http://localhost/osTicket/scp/login.php</a> to go to the local admin login page for osTicket. Use your admin login details to sign-in. </p>
 <img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/55e1194a-ea6c-43c9-8ef8-185684892c89" alt="Admin osTicket Login" width="400" length="400"/><br /><br />
 
