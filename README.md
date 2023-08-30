@@ -98,3 +98,4 @@ In order to improve my technical skills, I wanted to gain some experience using 
 <p>22. Finally, click <a href="http://localhost/osTicket/scp/login.php">http://localhost/osTicket/scp/login.php</a> to go to the local admin login page for osTicket. Use your admin login details to sign-in. </p>
 <img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/55e1194a-ea6c-43c9-8ef8-185684892c89" alt="Admin osTicket Login"width="500" length="500"/><br /><br />
 
+<p>osTicket is now running on the system.</p>
