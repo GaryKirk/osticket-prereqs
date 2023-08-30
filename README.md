@@ -55,6 +55,8 @@ In order to improve my technical skills, I wanted to gain some experience using 
 <p>9. Download and install <a href="https://www.microsoft.com/en-US/download/details.aspx?id=48145">Visual C++ Redistributable for Visual Studio 2015</a></p>
 <img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/5a8cb255-e782-4947-90a9-c75ecfeeedb5" alt="C++ Redistributable" width="400" length="400"/><br /><br />
 
-<p>9. Download <a href="https://downloads.mysql.com/archives/get/p/23/file/mysql-5.5.62-win32.msi">MySQL Server (Version 5.5.62)</a>. Once downloaded, choose to complete a 'Typical' installation. When this is complete, launch the configuration wizard. Choose a 'Standard Configuration' and write a root password. Click 'Execute' to finish the setup. </p>
+<p>10. Download <a href="https://downloads.mysql.com/archives/get/p/23/file/mysql-5.5.62-win32.msi">MySQL Server (Version 5.5.62)</a>. Once downloaded, choose to complete a 'Typical' installation. When this is complete, launch the configuration wizard. Choose a 'Standard Configuration' and write a root password. Click 'Execute' to finish the setup. </p>
 <img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/84ae9c13-6027-4959-9ef3-50bfa7bfc139)" alt="MySQL Server" width="400" length="400"/><br /><br />
 
+<p>11. On your system, search for 'IIS'. Right-click on the program and click 'Run as Administrator'. On the following screen, double-click 'PHP Manager'. Click to 'Register new PHP version'. On the pop-up screen, navigate to C: Drive --> PHP --> php-cgi. When the path to this file has been selected, click 'Open". Whne you return to the IIS opening screen, click on the name of the server on the top-left and click to restart the server on the top-right.  </p>
+<img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/870fc7e1-a98a-4398-af22-c193880d99c3" alt="Register PHP" width="500" length="500"/><br /><br />
