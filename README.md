@@ -74,6 +74,23 @@ In order to improve my technical skills, I wanted to gain some experience using 
 <p>Once this is complete, refresh the browser window that has the osTicket installation confirmation message and you should see that some other extensions are now available.</p>
 <img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/0225e2c3-1fa7-4a3c-baf1-c229d5ed85ce" alt="osTicket Extensions Enabled" width="500" length="500"/><br /><br />
 
-<p>15. Next, in your C: Drive, navigate to inetpub --> wwwroot --> osTicket --> include --> ost-sampleconfig.php. Right-click on this file and rename the file to "ost-config.php"</p>
+<p>15. Next, in your C: Drive, navigate to inetpub --> wwwroot --> osTicket --> include --> ost-sampleconfig.php. Right-click on this file and rename the file to "ost-config.php".</p>
 <img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/cfc7562e-fa23-42e0-a5a1-764d3132f9b9" alt="Rename ost-sampleconfig.php" width="400" length="400"/><br /><br />
+
+<p>16. Right-click on the 'ost-config.php' file and select 'Properties". Open the 'Security' tab and select 'Advanced'. On the following screen, click 'Disable Inheritance' and the click to 'Remove all permissions from this object'. Next, click 'Add', and select 'Add a principal'. In the following box, type "everyone', choose 'Check Names' and click 'OK'. On the following screen, choose the 'Full control' option and click 'Apply'. This setting is required by osTicket to ensure a smooth installation. It will be changed to a more secure setting later in the tutorial. </p>
+<img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/b6e9e3f0-164a-4535-8dc5-35955b49038d" alt="Full control ost-config.php" width="400" length="400"/><br /><br />
+
+<p>17. In the osTicket browser window, click 'Continue'. Complete the System Settings and Admin User details. </p>
+<img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/367de891-578e-4bfa-9c74-df5100fccf8f" alt="Setup osTicket Account Details" width="400" length="400"/><br /><br />
+
+<p>18. Download and install <a href="https://www.heidisql.com/download.php">HeidiSQL</a></p>
+<img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/e4e4abd4-fbe2-4db6-afe2-8d9f84edfb2b" alt="HeidiSQL" width="400" length="400"/><br /><br />
+
+<p>19. In HeidiSQL, click 'New'. Input the username and password that you setup for MySQL Server. Then click 'Open'. You should now have a connection to MySQL Server. You should then right-click 'Unnamed' on the left sidebar. Following this, click 'Create New' and then 'Database'. Name the database "osTicket" and click 'OK'.</p>
+<img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/0da4e0b3-c77d-4711-a4ef-c9a3bb7584e1" alt="Setup a Database in HeidiSQL" width="400" length="400"/><br /><br />
+
+<p>20. In the osTicket browser window, you can now continue the installation by adding the Database Settings details. Be sure to use 'osTicket' name for the MySQL Database part. Once all the information is complete, click to install. </p>
+<img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/8fb9c107-9aa5-483e-b8c4-b573fee6248d" alt="Setup a Database in HeidiSQL" width="400" length="400"/><br /><br />
+
+
 
