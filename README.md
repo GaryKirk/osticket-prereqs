@@ -7,9 +7,11 @@ In order to improve my technical skills, I wanted to gain some experience using 
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Microsoft Remote Desktop
-- Internet Information Services (IIS)
+<ul> 
+  <li>Microsoft Azure (Virtual Machines/Compute)</li>
+  <li>Microsoft Remote Desktop</li>
+  <li>Internet Information Services (IIS)</li>
+</ul>
 
 <h2>Operating Systems Used </h2>
 
@@ -17,14 +19,17 @@ In order to improve my technical skills, I wanted to gain some experience using 
 
 <h2>List of Prerequisites</h2>
 
-- Azure Virtual Machine
-- Internet Information Services (IIS)
-- PHP Manager
-- Rewrite Module
-- VC Redist
-- MySQL
-- Heidi SQL
-- osTicket v1.15.8
+<ul>
+  <li>Azure Virtual Machine</li>
+  <li>Internet Information Services (IIS)</li>
+  <li>PHP Manager</li>
+  <li>Rewrite Module</li>
+  <li>VC Redist</li>
+  <li>MySQL</li>
+  <li>Heidi SQL</li>
+  <li>osTicket v1.15.8</li>
+</ul>
+
 
 <h2>Required Setup of Preqrequisites to Ensure a Successful Installation of osTicket</h2>
 
@@ -68,9 +73,13 @@ In order to improve my technical skills, I wanted to gain some experience using 
 <img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/5dde1c27-3d08-45cb-82c3-9f2baa924f12" alt="osTicket Installed Correctly" width="500" length="500"/><br /><br />
 
 <p>14. Notice in the previous osTicket screenshot that there are some extensions with red crosses. These are currently not enabled. To enable them, go to IIS Manager, on the left sidebar, click Sites --> Default --> osTicket. After this, select PHP Manager and click 'Enable or diasble an extension. On the following screen, click to enable the following extensions:</p>
-<ul>- Enable: php_imap.dll</ul>
-<ul>- Enable: php_intl.dll</ul>
-<ul>- Enable: php_opcache.dll</ul>
+
+<ul>
+  <li>Enable: php_imap.dll</li>
+  <li>Enable: php_intl.dll</li>
+  <li>Enable: php_opcache.dll</li>
+</ul>
+  
 <p>Once this is complete, refresh the browser window that has the osTicket installation confirmation message and you should see that some other extensions are now available.</p>
 <img src="https://github.com/GaryKirk/osticket-prereqs/assets/137613637/0225e2c3-1fa7-4a3c-baf1-c229d5ed85ce" alt="osTicket Extensions Enabled" width="500" length="500"/><br /><br />
 
